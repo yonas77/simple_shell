@@ -1,0 +1,15 @@
+alias: alias
+        Define or Display aliases.
+
+        Without arguments, 'alias' prints the list of aliases in the reusable
+       form 'alias NAME=VALUE' on standard output.
+
+       Otherwise, an alias is defined for each NAME whose value is given.
+       A trailing space in VALUE causes the next word to be checked for
+      substituation when the alias is expanded.
+
+      Options:
+            NONE
+      Exit Status:
+      alias returns true unless a NAME is supplied for which no alias has been
+       deined.
